@@ -1,9 +1,7 @@
 const { test, expect } = require('@playwright/test')
 
 const { LoginPage } = require('../pages/LoginPage')
-
 const { Toast } = require('../pages/Components')
-
 const { MoviesPage } = require('../pages/MoviesPage')
 
 let loginPage
